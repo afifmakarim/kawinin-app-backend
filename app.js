@@ -19,11 +19,6 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/", indexRouter);
 app.use("/api/v1", usersRouter);
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`This server is running on PORT ${PORT}`);
-});
-
 // const weddingList = require("./models/weddingList.model");
 // const bride_groom = require("./models/bride_grooms.model");
 // const galleries = require("./models/galleries.model");
@@ -33,4 +28,4 @@ app.listen(PORT, () => {
 // const weddingDay = require("./models/weddingDay.model");
 // weddingDay.sync({ force: true });
 
-// module.exports = app;
+module.exports = app;

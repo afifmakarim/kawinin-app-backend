@@ -2,10 +2,10 @@
   "name": "kawinin-be",
   "version": "0.0.0",
   "private": true,
-  "main": "app.js",
+  "main": "./bin/www",
   "scripts": {
-    "start": "node app.js",
-    "build": "node app.js"
+    "start": "node ./bin/www",
+    "build": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
