@@ -1,5 +1,4 @@
 {
-    "installCommand": "npm install mysql2",
     "version": 2,
     "builds": [
         {
