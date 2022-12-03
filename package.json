@@ -5,8 +5,7 @@
 	"main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "node index.js",
-    "vercel build": "npm install mysql2"
+    "build": "npm install mysql2 node index.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
