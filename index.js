@@ -17,7 +17,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
 // app.use("/", indexRouter);
-app.use("/api/v1", usersRouter);
+// app.use("/api/v1", usersRouter);
 
 // const weddingList = require("./models/weddingList.model");
 // const bride_groom = require("./models/bride_grooms.model");
