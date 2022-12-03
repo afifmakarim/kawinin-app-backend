@@ -19,11 +19,10 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/", indexRouter);
 app.use("/api/v1", usersRouter);
 
-const port = process.env.PORT || 3000;
-
-app.listen(port, () =>
-  console.log(`Server running on ${port}, http://localhost:${port}`)
-);
+// const port = process.env.PORT || 3000;
+// app.listen(port, () =>
+//   console.log(`Server running on ${port}, http://localhost:${port}`)
+// );
 
 // const weddingList = require("./models/weddingList.model");
 // const bride_groom = require("./models/bride_grooms.model");
@@ -34,4 +33,4 @@ app.listen(port, () =>
 // const weddingDay = require("./models/weddingDay.model");
 // weddingDay.sync({ force: true });
 
-// module.exports = app;
+module.exports = app;
