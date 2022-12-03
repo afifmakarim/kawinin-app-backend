@@ -34,8 +34,3 @@ app.use("/api/v1", usersRouter);
 // weddingDay.sync({ force: true });
 
 module.exports = app;
-// const PORT = process.env.PORT || 5000;
-
-// app.listen(PORT, () => {
-//   console.log(`This server is running on PORT ${PORT}`);
-// });
