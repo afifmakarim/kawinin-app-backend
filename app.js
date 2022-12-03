@@ -33,4 +33,4 @@ app.listen(PORT, () => {
 // const weddingDay = require("./models/weddingDay.model");
 // weddingDay.sync({ force: true });
 
-module.exports = app;
+// module.exports = app;
