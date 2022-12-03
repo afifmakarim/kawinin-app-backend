@@ -2,9 +2,9 @@
   "name": "kawinin-be",
   "version": "0.0.0",
   "private": true,
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"  
+    "start": "node index.js"  
   },
   "engines": {"node": "14.x"},
   "dependencies": {
