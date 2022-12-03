@@ -28,4 +28,7 @@ app.use("/api/v1", usersRouter);
 // const weddingDay = require("./models/weddingDay.model");
 // weddingDay.sync({ force: true });
 
-module.exports = app;
+// module.exports = app;
+
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));

@@ -2,11 +2,11 @@
   "name": "kawinin-be",
   "version": "0.0.0",
   "private": true,
-  "main": "./bin/www",
+  "main": "app.js",
   "scripts": {
-    "start": "node ./bin/www",
-    "build": "node ./bin/www",
-    "vercel-build": "node ./bin/www"
+    "start": "node app.js",
+    "build": "node app.js",
+    "vercel-build": "node app.js"
   },
   "engines": {"node": "14.x"},
   "dependencies": {
