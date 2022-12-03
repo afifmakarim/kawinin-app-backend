@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "npm install mysql2 node index.js"
+    "build": "npm install mysql2 node ./index.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
