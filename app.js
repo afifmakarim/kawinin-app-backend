@@ -20,6 +20,7 @@ app.use("/", indexRouter);
 app.use("/api/v1", usersRouter);
 
 const port = process.env.PORT || 3000;
+
 app.listen(port, () =>
   console.log(`Server running on ${port}, http://localhost:${port}`)
 );
@@ -33,4 +34,4 @@ app.listen(port, () =>
 // const weddingDay = require("./models/weddingDay.model");
 // weddingDay.sync({ force: true });
 
-module.exports = app;
+// module.exports = app;
