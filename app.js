@@ -19,10 +19,10 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/", indexRouter);
 app.use("/api/v1", usersRouter);
 
-// const port = process.env.PORT || 3000;
-// app.listen(port, () =>
-//   console.log(`Server running on ${port}, http://localhost:${port}`)
-// );
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`This server is running on PORT ${PORT}`);
+});
 
 // const weddingList = require("./models/weddingList.model");
 // const bride_groom = require("./models/bride_grooms.model");
