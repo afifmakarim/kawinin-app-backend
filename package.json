@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "build": "node app.js",
-    "vercel-build": "node app.js"
+    "build": "node app.js"
   },
   "engines": {"node": "14.x"},
   "dependencies": {
