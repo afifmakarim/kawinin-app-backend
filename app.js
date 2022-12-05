@@ -16,8 +16,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
-// app.use("/", indexRouter);
-// app.use("/api/v1", usersRouter);
+app.use("/", indexRouter);
+app.use("/api/v1", usersRouter);
 
 // const weddingList = require("./models/weddingList.model");
 // const bride_groom = require("./models/bride_grooms.model");
@@ -28,10 +28,4 @@ app.use(express.static(path.join(__dirname, "public")));
 // const weddingDay = require("./models/weddingDay.model");
 // weddingDay.sync({ force: true });
 
-// module.exports = app;
-app.get("/", (req, res) => {
-  res.send("This server is Connected");
-});
-
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
+module.exports = app;
